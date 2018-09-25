@@ -3,7 +3,7 @@ import java.util.List;
 
 import static java.lang.Integer.compare;
 
-public class DevicesUtils {
+public class DevicesSorter {
 
     /**
      * Permet de trier une liste de devices par rapport à leur version

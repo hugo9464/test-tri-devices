@@ -5,7 +5,7 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-public class DevicesUtilsTest {
+public class DevicesSorterTest {
 
     @Test
     public void should_sort_devices_by_version() {
@@ -25,7 +25,7 @@ public class DevicesUtilsTest {
         devices.add(device5);
 
         //when
-        final List<Device> sortedDevices = DevicesUtils.sortByVersion(devices);
+        final List<Device> sortedDevices = DevicesSorter.sortByVersion(devices);
 
         //then
         assertNotNull(sortedDevices);
@@ -53,7 +53,7 @@ public class DevicesUtilsTest {
         devices.add(device1);
 
         //when
-        final List<Device> sortedDevices = DevicesUtils.sortByVersion(devices);
+        final List<Device> sortedDevices = DevicesSorter.sortByVersion(devices);
 
         //then
         assertNotNull(sortedDevices);
@@ -78,7 +78,7 @@ public class DevicesUtilsTest {
         devices.add(device2);
 
         //when
-        final List<Device> sortedDevices = DevicesUtils.sortByVersion(devices);
+        final List<Device> sortedDevices = DevicesSorter.sortByVersion(devices);
 
         //then
         assertNotNull(sortedDevices);
@@ -103,7 +103,7 @@ public class DevicesUtilsTest {
         devices.add(device2);
 
         //when
-        final List<Device> sortedDevices = DevicesUtils.sortByVersion(devices);
+        final List<Device> sortedDevices = DevicesSorter.sortByVersion(devices);
 
         //then
         assertNotNull(sortedDevices);
